@@ -1,0 +1,45 @@
+:root {
+	--font-color: white;
+	--bg-color: black;
+	--accent-color: rgba(34,255,204,0.5);
+	--link-color: #f2c;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--font-color);
+	font-family: sans-serif;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+section {
+	padding-bottom: 40px;
+	border-bottom: 1px solid white;
+	margin-bottom: 50px;
+}
+
+h1 {
+	background: linear-gradient(rgba(0,0,0,0), var(--accent-color));
+}
+
+h2 {
+	border-bottom: 4px solid var(--accent-color);
+	border-left: 3px solid var(--accent-color);
+}
+
+h3 {
+	border-left: 5px solid var(--accent-color);
+}
+
+article {
+	padding-left: 20px;
+}
+
+.cursive {
+	font-family: cursive;
+	font-size: 18px;
+}
